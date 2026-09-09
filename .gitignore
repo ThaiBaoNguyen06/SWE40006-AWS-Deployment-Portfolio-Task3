@@ -1,0 +1,25 @@
+# Credentials and secrets
+*.pem
+*.key
+.env
+.env.*
+.aws/
+credentials
+*secret*
+*password*
+
+# WordPress / database sensitive files
+wp-config.php
+*.sql
+*.sql.gz
+*.tar.gz
+
+# CDK generated files
+cdk.out/
+node_modules/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
