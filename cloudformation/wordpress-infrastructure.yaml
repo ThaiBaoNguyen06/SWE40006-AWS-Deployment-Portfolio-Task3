@@ -1,8 +1,8 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: >
-  Supporting CloudFormation example for the SWE40006 WordPress scalable web tier.
-  This template represents the architecture but is not claimed as the original
-  provisioning method used for the assessed deployment.
+  CloudFormation template for the SWE40006 WordPress deployment. This template shows the main AWS infrastructure used in the project,
+  including the ALB, Target Group, Launch Template, Security Groups and Auto Scaling Group.
+  The original deployment was mainly created using the AWS Console, so this template is provided as a supporting IaC example.
 
 Parameters:
   VpcId:
